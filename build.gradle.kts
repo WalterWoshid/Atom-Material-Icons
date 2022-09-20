@@ -179,9 +179,6 @@ tasks {
     version.set(properties("pluginVersion"))
     sinceBuild.set(properties("pluginSinceBuild"))
     untilBuild.set(properties("pluginUntilBuild"))
-
-    // Get the latest available change notes from the changelog file
-    changeNotes.set(changelog.getLatest().toHTML())
   }
 
   runPluginVerifier {
@@ -197,10 +194,10 @@ tasks {
     systemProperty("jb.consents.confirmation.enabled", "false")
   }
 
-//  runIde {
-//    jvmArgs = properties("jvmArgs").split("")
-//    systemProperty("jb.service.configuration.url", properties("salesUrl"))
-//  }
+  // runIde {
+  //   jvmArgs = properties("jvmArgs").split("")
+  //   systemProperty("jb.service.configuration.url", properties("salesUrl"))
+  // }
 
   signPlugin {
     certificateChain.set(System.getenv("CERTIFICATE_CHAIN"))
@@ -210,7 +207,7 @@ tasks {
 
 
   publishPlugin {
-//    dependsOn("patchChangelog")
+    // dependsOn("patchChangelog")
     token.set(System.getenv("INTELLIJ_PUBLISH_TOKEN") ?: file("./publishToken").readText().trim())
     channels.set(listOf(properties("pluginVersion").split('-').getOrElse(1) { "default" }.split('.').first()))
   }
