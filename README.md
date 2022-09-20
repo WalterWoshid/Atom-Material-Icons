@@ -1,9 +1,5 @@
 # Atom Material Icons Plugin for JetBrains
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 <h1 align="center">
   <br>
     <img src="src/main/resources/META-INF/pluginIcon.svg" alt="logo" width="320" height="320">
