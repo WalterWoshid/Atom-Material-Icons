@@ -26,7 +26,6 @@
 @file:Suppress("SpellCheckingInspection", "HardCodedStringLiteral")
 
 import io.gitlab.arturbosch.detekt.Detekt
-import org.jetbrains.changelog.markdownToHTML
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 /** Get a property from the gradle.properties file. */
