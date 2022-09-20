@@ -67,22 +67,6 @@ the [Material Theme UI](https://github.com/mallowigi/material-theme-issues) plug
 
 ![Folder Icons](https://raw.githubusercontent.com/mallowigi/iconGenerator/master/assets/folders.png)
 
-## Credits
-
-Special credits to:
-
-- [Atom File Icons](https://github.com/file-icons/atom)
-  and [Sublime Text A File Icon](https://github.com/SublimeText/AFileIcon) for the idea
-- [Scientifics Study Vectors](https://www.svgrepo.com/svg/121720/atom) for the plugin icon
-- [File-Icons](https://github.com/file-icons/source/blob/master/charmap.md)
-- [FontAwesome 4.7.0](https://fontawesome.com/v4.7.0/cheatsheet/)
-- [MFixx](https://github.com/file-icons/MFixx/blob/master/charmap.md)
-- [Devicons](https://github.com/file-icons/DevOpicons/blob/master/charmap.md)
-- [Octicons](https://octicons.github.com/)
-- [Material Design Icons](https://materialdesignicons.com/)
-- [The Noun Project](https://thenounproject.com/)
-- [Icongram](https://icongr.am/)
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
