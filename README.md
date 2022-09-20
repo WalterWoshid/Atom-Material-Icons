@@ -1,5 +1,6 @@
 # Atom Material Icons Plugin for JetBrains
 
+<!--suppress HtmlDeprecatedAttribute -->
 <h1 align="center">
   <br>
     <img src="src/main/resources/META-INF/pluginIcon.svg" alt="logo" width="320" height="320">
