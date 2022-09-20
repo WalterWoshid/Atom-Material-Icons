@@ -206,12 +206,6 @@ tasks {
   }
 
 
-  publishPlugin {
-    // dependsOn("patchChangelog")
-    token.set(System.getenv("INTELLIJ_PUBLISH_TOKEN") ?: file("./publishToken").readText().trim())
-    channels.set(listOf(properties("pluginVersion").split('-').getOrElse(1) { "default" }.split('.').first()))
-  }
-
   runIde {
     ideDir.set(fileProperties("idePath"))
   }
