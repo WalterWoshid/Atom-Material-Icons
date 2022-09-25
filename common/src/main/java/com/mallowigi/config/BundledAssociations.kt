@@ -130,13 +130,13 @@ class BundledAssociations {
      * Load folder associations from XML
      */
     val folderAssociations: DefaultAssociations =
-      AssociationsFactory.create("/iconGenerator/folder_associations.xml")
+      AssociationsFactory.create("/iconGenerator/src/associations/folder_associations.xml")
 
     /**
      * Load file associations from XML
      */
     val fileAssociations: DefaultAssociations =
-      AssociationsFactory.create("/iconGenerator/icon_associations.xml")
+      AssociationsFactory.create("/iconGenerator/src/associations/icon_associations.xml")
 
   }
 }
