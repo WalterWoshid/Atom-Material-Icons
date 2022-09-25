@@ -14,6 +14,26 @@
 This plugin is a port of the [Atom File Icons](https://github.com/file-icons/atom) for Atom and the icons of
 the [Material Theme UI](https://github.com/mallowigi/material-theme-issues) plugin.
 
+## Build
+
+### IntelliJ IDEA
+
+- Open the project in IntelliJ IDEA
+- Pull the submodules
+  - `git submodule update --init --recursive`
+- Settings > Build, Execution, Deployment > Build Tools > Gradle
+  - Select your Project
+  - Build and run using: IntelliJ IDEA
+  - Run tests using: IntelliJ IDEA
+  - Gradle JVM: JetBrains Runtime version 17.x
+- Build the project
+  - Build > Build Project
+- Add new Run/Debug Configuration
+  - Type: Gradle
+  - Name: `Build Plugin`
+  - Run: `buildPlugin`
+  - Run the configuration
+
 ## Chrome Extension
 
 <https://chrome.google.com/webstore/detail/atom-file-icons-web/pljfkbaipkidhmaljaaakibigbcmmpnc>
